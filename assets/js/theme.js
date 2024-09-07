@@ -152,3 +152,30 @@ var preloader = document.getElementById("preloder");
 window.addEventListener("load", function(){
   preloader.style.display = "none";
 })
+
+// var preloader = document.getElementById("preloder");
+// window.addEventListener("load", setTimeout(function(){
+//   preloader.style.display = "none";
+// },1.5))
+
+// window.addEventListener("load", function() {
+//   var preloader = document.getElementById("preloader");
+//   setTimeout(function() {
+//     preloader.style.display = "none";
+//   }, 1); 
+// });
+
+// var preloader = document.getElementById("preloader");
+// window.addEventListener("load", function() {
+//   setTimeout(function() {
+//     preloader.style.display = "none";
+//   }, 1000); // 1000 milliseconds = 1 second
+// });
+// window.addEventListener("load", function() {
+//   setTimeout(function() {
+//     var preloader = document.getElementById("preloader");
+//     if (preloader) {
+//       preloader.style.display = "none";
+//     }
+//   }, 1000); // 1000 milliseconds = 1 second
+// });
